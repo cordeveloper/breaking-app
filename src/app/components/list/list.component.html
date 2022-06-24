@@ -1,0 +1,8 @@
+<div class="list__container">
+    <div *ngIf="items">
+        <div *ngFor="let item of items | async">
+           <app-character [character]="item"></app-character>
+        </div>
+    </div>
+</div>
+

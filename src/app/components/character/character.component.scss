@@ -1,0 +1,37 @@
+.character {
+    background-color: #fff;
+    height: 70px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    justify-content: space-between;
+}
+
+.character__picture {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    display: block;
+}
+
+.character__image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.character__status {
+    span{
+        padding: 8px;
+    }
+}
+
+.character__name {
+    text-align: left;
+    flex:1;
+    padding: 0 32px;
+}

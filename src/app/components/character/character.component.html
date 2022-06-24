@@ -1,0 +1,15 @@
+<div class="character">
+    <picture class="character__picture">
+        <img class="character__image" [src]="character.img" [alt]="character.name">
+    </picture>
+    <div class="character__name">
+        <h2>{{character.name}}</h2>
+    </div>
+    <div class="character__status">
+        <div [ngStyle]="{'background-color': character.status==='Alive' ? 'green' : 'red'  }">
+            <span>
+                {{character.status}}
+            </span>   
+        </div>
+    </div>
+</div>
